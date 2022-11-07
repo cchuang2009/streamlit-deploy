@@ -4,7 +4,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import sklearn
+#import sklearn
 from pycaret.regression import load_model, predict_model
 
 df = pd.read_csv('Laptop_price_EDA.csv')
